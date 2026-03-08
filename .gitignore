@@ -1,0 +1,30 @@
+# OSP-QC-Automation .gitignore
+# Secrets & environment
+.env
+.env.local
+*.key
+*.pem
+secrets/
+# Python
+__pycache__/
+.venv/
+venv/
+# Node
+node_modules/
+# OS files
+.DS_Store
+Thumbs.db
+# Editor
+.vscode/
+.idea/
+*.swp
+# Temp & logs
+temp/
+tmp/
+*.log
+# Large binaries (store separately)
+*.dwg
+*.mxd
+# Client data - never commit
+/qc-outputs/raw/
+/exports/client-data/
